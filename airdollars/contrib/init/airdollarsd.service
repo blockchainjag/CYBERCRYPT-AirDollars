@@ -1,0 +1,22 @@
+[Unit]
+Description=AirDollars's distributed currency daemon
+After=network.target
+
+[Service]
+User=airdollars
+Group=airdollars
+
+Type=forking
+PIDFile=/var/lib/airdollarsd/airdollarsd.pid
+ExecStart=/usr/bin/airdollarsd -daemon -pid=/var/lib/airdollarsd/airdollarsd.pid \
+-conf=/etc/airdollars/airdollars.conf -datadir=/var/lib/airdollarsd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

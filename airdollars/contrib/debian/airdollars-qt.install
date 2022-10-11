@@ -1,0 +1,6 @@
+usr/local/bin/airdollars-qt usr/bin
+share/pixmaps/airdollars32.xpm usr/share/pixmaps
+share/pixmaps/airdollars16.xpm usr/share/pixmaps
+share/pixmaps/airdollars128.png usr/share/pixmaps
+debian/airdollars-qt.desktop usr/share/applications
+debian/airdollars-qt.protocol usr/share/kde4/services/

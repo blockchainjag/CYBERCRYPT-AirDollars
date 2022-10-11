@@ -1,0 +1,3546 @@
+libairdollars_server_a-miner.o: miner.cpp miner.h primitives/block.h \
+ primitives/transaction.h amount.h serialize.h compat/endian.h \
+ config/airdollars-config.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stdint.h \
+ /usr/share/mingw-w64/include/stdint.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_directx.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stddef.h \
+ /usr/share/mingw-w64/include/stddef.h compat/byteswap.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/algorithm \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/utility \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_relops.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_pair.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/move.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/concept_check.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/type_traits \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/initializer_list \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_algobase.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/functexcept.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cpp_type_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/type_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/numeric_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator_base_types.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator_base_funcs.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/debug/assertions.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ptr_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/debug/debug.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/predefined_ops.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_algo.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdlib \
+ /usr/share/mingw-w64/include/stdlib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include-fixed/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/stdlib.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_abs.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/algorithmfwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_heap.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_tempbuf.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_construct.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/new \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/exception \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cxxabi_init_exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/typeinfo \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/hash_bytes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/nested_exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/alloc_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/alloc_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/memoryfwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/uniform_int_dist.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/limits \
+ /usr/share/mingw-w64/include/assert.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ios \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iosfwd \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stringfwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/postypes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cwchar \
+ /usr/share/mingw-w64/include/wchar.h \
+ /usr/share/mingw-w64/include/_mingw_print_push.h \
+ /usr/share/mingw-w64/include/_mingw_off_t.h \
+ /usr/share/mingw-w64/include/_mingw_stat64.h \
+ /usr/x86_64-w64-mingw32/include/swprintf.inl \
+ /usr/share/mingw-w64/include/sec_api/wchar_s.h \
+ /usr/share/mingw-w64/include/_mingw_print_pop.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/char_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdint \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/localefwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/clocale \
+ /usr/share/mingw-w64/include/locale.h \
+ /usr/share/mingw-w64/include/stdio.h \
+ /usr/share/mingw-w64/include/sec_api/stdio_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cctype \
+ /usr/share/mingw-w64/include/ctype.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ios_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/atomicity.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ /usr/share/mingw-w64/include/pthread.h \
+ /usr/share/mingw-w64/include/errno.h \
+ /usr/share/mingw-w64/include/sys/types.h \
+ /usr/share/mingw-w64/include/process.h \
+ /usr/share/mingw-w64/include/signal.h \
+ /usr/share/mingw-w64/include/pthread_signal.h \
+ /usr/share/mingw-w64/include/sys/timeb.h \
+ /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
+ /usr/share/mingw-w64/include/pthread_compat.h \
+ /usr/share/mingw-w64/include/pthread_unistd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_classes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/string \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/new_allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ostream_insert.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cxxabi_forced.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_function.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/backward/binders.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/range_access.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_string.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/string_conversions.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdio \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cerrno \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/functional_hash.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_string.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_classes.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/system_error \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/stdexcept \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/streambuf \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/streambuf.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_ios.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cwctype \
+ /usr/share/mingw-w64/include/wctype.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/streambuf_iterator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_ios.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/map \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_tree.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/aligned_buffer.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_map.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/tuple \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/array \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/uses_allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/invoke.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_multimap.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/set \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_set.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_multiset.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/vector \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_uninitialized.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_vector.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_bvector.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/vector.tcc \
+ script/script.h crypto/common.h ../src/config/airdollars-config.h \
+ compat/endian.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/climits \
+ serialize.h uint256.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstring amount.h \
+ chainparams.h chainparamsbase.h checkpoints.h uint256.h \
+ consensus/params.h protocol.h netbase.h config/airdollars-config.h \
+ compat.h /usr/share/mingw-w64/include/winsock2.h \
+ /usr/share/mingw-w64/include/_mingw_unicode.h \
+ /usr/share/mingw-w64/include/windows.h \
+ /usr/share/mingw-w64/include/sdkddkver.h \
+ /usr/share/mingw-w64/include/excpt.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stdarg.h \
+ /usr/share/mingw-w64/include/stdarg.h \
+ /usr/share/mingw-w64/include/_mingw_stdarg.h \
+ /usr/share/mingw-w64/include/windef.h \
+ /usr/share/mingw-w64/include/minwindef.h \
+ /usr/share/mingw-w64/include/winapifamily.h \
+ /usr/share/mingw-w64/include/specstrings.h \
+ /usr/share/mingw-w64/include/sal.h /usr/share/mingw-w64/include/winnt.h \
+ /usr/share/mingw-w64/include/apiset.h \
+ /usr/share/mingw-w64/include/psdk_inc/intrin-impl.h \
+ /usr/share/mingw-w64/include/basetsd.h \
+ /usr/share/mingw-w64/include/guiddef.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/x86intrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/ia32intrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/mm_malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/pmmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/tmmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/ammintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/smmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/popcntintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/wmmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/immintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avxintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx2intrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512fintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512erintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512pfintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512cdintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vlintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512bwintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512dqintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vlbwintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vldqintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512ifmaintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512ifmavlintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vbmiintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vbmivlintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx5124fmapsintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx5124vnniwintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vpopcntdqintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/shaintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/lzcntintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/bmiintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/bmi2intrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/fmaintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/f16cintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/rtmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xtestintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/mm3dnow.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/prfchwintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/fma4intrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xopintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/lwpintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/tbmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/rdseedintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/fxsrintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xsaveintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xsaveoptintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/sgxintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/adxintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/clwbintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/clflushoptintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xsavesintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xsavecintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/mwaitxintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/clzerointrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/pkuintrin.h \
+ /usr/share/mingw-w64/include/pshpack4.h \
+ /usr/share/mingw-w64/include/poppack.h \
+ /usr/share/mingw-w64/include/pshpack4.h \
+ /usr/share/mingw-w64/include/pshpack2.h \
+ /usr/share/mingw-w64/include/poppack.h \
+ /usr/share/mingw-w64/include/pshpack2.h \
+ /usr/share/mingw-w64/include/pshpack8.h \
+ /usr/share/mingw-w64/include/pshpack8.h \
+ /usr/share/mingw-w64/include/ktmtypes.h \
+ /usr/share/mingw-w64/include/winbase.h \
+ /usr/share/mingw-w64/include/apisetcconv.h \
+ /usr/share/mingw-w64/include/minwinbase.h \
+ /usr/share/mingw-w64/include/bemapiset.h \
+ /usr/share/mingw-w64/include/debugapi.h \
+ /usr/share/mingw-w64/include/errhandlingapi.h \
+ /usr/share/mingw-w64/include/fibersapi.h \
+ /usr/share/mingw-w64/include/fileapi.h \
+ /usr/share/mingw-w64/include/handleapi.h \
+ /usr/share/mingw-w64/include/heapapi.h \
+ /usr/share/mingw-w64/include/ioapiset.h \
+ /usr/share/mingw-w64/include/interlockedapi.h \
+ /usr/share/mingw-w64/include/jobapi.h \
+ /usr/share/mingw-w64/include/libloaderapi.h \
+ /usr/share/mingw-w64/include/memoryapi.h \
+ /usr/share/mingw-w64/include/namedpipeapi.h \
+ /usr/share/mingw-w64/include/namespaceapi.h \
+ /usr/share/mingw-w64/include/processenv.h \
+ /usr/share/mingw-w64/include/processthreadsapi.h \
+ /usr/share/mingw-w64/include/processtopologyapi.h \
+ /usr/share/mingw-w64/include/profileapi.h \
+ /usr/share/mingw-w64/include/realtimeapiset.h \
+ /usr/share/mingw-w64/include/securityappcontainer.h \
+ /usr/share/mingw-w64/include/securitybaseapi.h \
+ /usr/share/mingw-w64/include/synchapi.h \
+ /usr/share/mingw-w64/include/sysinfoapi.h \
+ /usr/share/mingw-w64/include/systemtopologyapi.h \
+ /usr/share/mingw-w64/include/threadpoolapiset.h \
+ /usr/share/mingw-w64/include/threadpoollegacyapiset.h \
+ /usr/share/mingw-w64/include/utilapiset.h \
+ /usr/share/mingw-w64/include/wow64apiset.h \
+ /usr/share/mingw-w64/include/winerror.h \
+ /usr/share/mingw-w64/include/fltwinerror.h \
+ /usr/share/mingw-w64/include/timezoneapi.h \
+ /usr/share/mingw-w64/include/wingdi.h \
+ /usr/share/mingw-w64/include/pshpack1.h \
+ /usr/share/mingw-w64/include/winuser.h \
+ /usr/share/mingw-w64/include/tvout.h \
+ /usr/share/mingw-w64/include/winnls.h \
+ /usr/share/mingw-w64/include/datetimeapi.h \
+ /usr/share/mingw-w64/include/stringapiset.h \
+ /usr/share/mingw-w64/include/wincon.h \
+ /usr/share/mingw-w64/include/winver.h \
+ /usr/share/mingw-w64/include/winreg.h \
+ /usr/share/mingw-w64/include/reason.h \
+ /usr/share/mingw-w64/include/winnetwk.h \
+ /usr/share/mingw-w64/include/wnnc.h \
+ /usr/share/mingw-w64/include/virtdisk.h \
+ /usr/share/mingw-w64/include/stralign.h \
+ /usr/share/mingw-w64/include/sec_api/stralign_s.h \
+ /usr/share/mingw-w64/include/winsvc.h /usr/share/mingw-w64/include/mcx.h \
+ /usr/share/mingw-w64/include/imm.h \
+ /usr/share/mingw-w64/include/psdk_inc/_ws1_undef.h \
+ /usr/share/mingw-w64/include/_timeval.h \
+ /usr/share/mingw-w64/include/_bsd_types.h \
+ /usr/share/mingw-w64/include/inaddr.h \
+ /usr/share/mingw-w64/include/psdk_inc/_socket_types.h \
+ /usr/share/mingw-w64/include/psdk_inc/_fd_types.h \
+ /usr/share/mingw-w64/include/psdk_inc/_ip_types.h \
+ /usr/share/mingw-w64/include/psdk_inc/_wsadata.h \
+ /usr/share/mingw-w64/include/ws2def.h \
+ /usr/share/mingw-w64/include/psdk_inc/_wsa_errnos.h \
+ /usr/share/mingw-w64/include/qos.h \
+ /usr/share/mingw-w64/include/mswsock.h \
+ /usr/share/mingw-w64/include/psdk_inc/_xmitfile.h \
+ /usr/share/mingw-w64/include/ws2tcpip.h \
+ /usr/share/mingw-w64/include/ws2ipdef.h \
+ /usr/share/mingw-w64/include/in6addr.h \
+ /usr/share/mingw-w64/include/psdk_inc/_ip_mreq1.h \
+ /usr/share/mingw-w64/include/mstcpip.h serialize.h version.h \
+ consensus/consensus.h consensus/validation.h hash.h crypto/ripemd160.h \
+ crypto/sha256.h main.h chain.h arith_uint256.h pow.h tinyformat.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cassert \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iostream \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ostream \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ostream.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/istream \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/istream.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/sstream \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/sstream.tcc \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/foreach.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstddef \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/user.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/select_compiler_config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/compiler/gcc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/select_stdlib_config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/no_tr1/utility.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/stdlib/libstdcpp3.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/select_platform_config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/platform/win32.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/suffix.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/workaround.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/if.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/value_wknd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/static_cast.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/workaround.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/integral.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/msvc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/eti.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/na_spec.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/lambda_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/void_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/adl_barrier.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/adl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/intel.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/gcc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/na.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/bool.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/bool_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/integral_c_tag.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/static_constant.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/na_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/ctps.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/lambda.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/ttp.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/int.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/int_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/nttp_decl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/nttp.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/integral_wrapper.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/cat.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/config/config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/lambda_arity_param.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/template_arity_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/arity.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/dtp.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessor/params.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/preprocessor.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/comma_if.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/punctuation/comma_if.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/if.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/iif.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/logical/bool.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/facilities/empty.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/punctuation/comma.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repeat.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/repeat.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/debug/error.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/detail/auto_rec.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/tuple/eat.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/inc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/arithmetic/inc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessor/enum.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/limits/arity.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/logical/and.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/logical/bitand.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/identity.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/facilities/identity.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/empty.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/arithmetic/add.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/arithmetic/dec.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/while.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/fold_left.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/detail/fold_left.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/expr_iif.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/adt.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/detail/is_binary.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/detail/check.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/logical/compl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/fold_right.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/detail/fold_right.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/reverse.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/detail/while.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/tuple/elem.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/facilities/overload.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/variadic/size.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/tuple/rem.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/variadic/elem.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/arithmetic/sub.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/overload_resolution.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/lambda_support.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/assert.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/not.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/nested_type_wknd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/yes_no.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/arrays.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/pp_counter.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/logical.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/or.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/include_preprocessed.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/compiler.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/stringize.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/and.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/eval_if.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/noncopyable.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/end.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/detail/implementation_help.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/detail/common.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/detail/sfinae.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_array.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/bool_trait_def.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/template_arity_spec.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/integral_constant.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/integral_c.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/integral_c_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/bool_trait_undef.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/yes_no_type.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_void.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/ice_or.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_same.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/mutable_iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/detail/extract_optional_type.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/iterator_traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/iterator.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iterator \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stream_iterator.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/const_iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_const.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_volatile.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/cv_traits_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/broken_compiler_spec.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/type_trait_def.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/type_trait_undef.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_const.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_reference.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_lvalue_reference.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_rvalue_reference.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/ice.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/ice_and.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/ice_not.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/ice_eq.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/begin.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/rend.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/reverse_iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/reverse_iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/next_prior.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/iterator_adaptor.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/static_assert.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/iterator_categories.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/detail/config_def.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/identity.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/placeholders.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/arg.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/arg_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/na_assert.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/arity_spec.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/arg_typedef.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_convertible.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/intrinsics.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_arithmetic.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_integral.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_float.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_abstract.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_lvalue_reference.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_reference.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_rvalue_reference.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_function.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/false_result.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/detail/config_undef.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/iterator_facade.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/interoperable.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/detail/facade_iterator_category.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/indirect_traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_pointer.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_member_pointer.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_member_function_pointer.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_cv.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_class.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_reference.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_pointer.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/detail/enable_if.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/addressof.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_const.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_pointer.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_pod.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_scalar.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_enum.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/always.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/apply.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/apply_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/apply_wrap.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/has_apply.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/has_xxx.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/type_wrapper.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/has_xxx.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/msvc_typename.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/array/elem.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/array/data.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/array/size.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/enum_params.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/has_apply.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/msvc_never_true.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/lambda.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/bind.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/bind_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/bind.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/next.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/next_prior.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/common_name_wknd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/protect.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/full_lambda.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/quote.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/void.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/has_type.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/bcc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/template_arity.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/rbegin.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_base_and_derived.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/foreach_fwd.hpp \
+ coins.h compressor.h primitives/transaction.h script/script.h memusage.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered_set.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/unordered_set.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/unordered_set_fwd.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/memory \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_raw_storage_iter.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/concurrence.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/unique_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocated_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/refwrap.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr_atomic.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_lockfree_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/backward/auto_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/functional \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_function.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/hash_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/equivalent.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/table.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/buckets.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/util.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_empty.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/enable_if.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/select_type.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/move.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/detail/config_begin.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/utility.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/core.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/detail/config_end.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/detail/meta_utils.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_destructor.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_nothrow_move_constructible.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_move_constructor.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_nothrow_copy.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_copy.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/declval.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_nothrow_move_assignable.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_move_assign.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_nothrow_assign.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_assign.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/algorithm.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/no_exceptions_support.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/seq/size.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/seq/enum.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/swap.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/swap.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/allocate.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/dec.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/enum.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/enum_binary_params.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/tuple/tuple.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/ref.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/tuple/detail/tuple_basic.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/cv_traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_volatile.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_cv.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_volatile.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/function_traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/assert.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/current_function.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/limits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/pointer_to_other.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/aligned_storage.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/aligned_storage.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/alignment_of.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/size_t_trait_def.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/size_t.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/size_t_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/size_t_trait_undef.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/type_with_alignment.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/for_each_i.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/for.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/detail/for.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/tuple/to_list.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/transform.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/append.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cmath \
+ /usr/share/mingw-w64/include/math.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/extract_key.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/unique.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/throw_exception.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/attribute_noreturn.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/exception.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/hash.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/detail/hash_float.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/detail/float_functions.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/no_tr1/cmath.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/detail/limits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/integer/static_log2.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/integer_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/cstdint.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/typeindex \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/extensions.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/container_fwd.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/deque \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_deque.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/deque.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/list \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_list.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/list.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bitset \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/complex \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered_map.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/unordered_map.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/unordered_map_fwd.hpp \
+ net.h bloom.h limitedmap.h mruset.h random.h streams.h \
+ support/allocators/zeroafterfree.h support/cleanse.h sync.h \
+ threadsafety.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/condition_variable.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/platform.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/requires_threads.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/condition_variable.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/thread_primitives.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/auto_link.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/exceptions.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/system/system_error.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/system/error_code.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/system/config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/system/api_config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/operators.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/cerrno.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/abi_prefix.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/abi_suffix.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/interlocked.hpp \
+ /usr/share/mingw-w64/include/intrin.h \
+ /usr/share/mingw-w64/include/setjmp.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/thread_data.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/thread_time.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_clock.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/c_time.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ctime \
+ /usr/share/mingw-w64/include/time.h \
+ /usr/share/mingw-w64/include/pthread_time.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/compiler_config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/locale_config.hpp \
+ /usr/share/mingw-w64/include/sys/time.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/shared_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/shared_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/no_tr1/memory.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/checked_delete.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/shared_count.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/bad_weak_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_counted_base.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_has_sync.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/sp_typeinfo.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_convertible.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/spinlock_pool.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/spinlock.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/spinlock_sync.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/yield_k.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/memory_order.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/operator_bool.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/microsec_time_clock.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/filetime_functions.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_defs.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/special_defs.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_defs.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/posix_time_types.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/ptime.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/posix_time_system.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/posix_time_config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_duration.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_resolution_traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/int_adapter.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/gregorian_types.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/year_month_day.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/period.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_calendar.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_weekday.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/constrained_value.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_base_of.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_day_of_year.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian_calendar.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian_calendar.ipp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_ymd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_day.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_year.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_month.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_duration.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_duration.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_duration_types.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_duration_types.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_date.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/adjust_functors.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/wrapping_int.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_generators.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_clock_device.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_system_split.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_system_counted.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/date_duration_operators.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/posix_time_duration.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/time_period.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/dst_rules.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/thread_heap_alloc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/intrusive_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/intrusive_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/no_tr1/functional.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/system_clocks.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/duration.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/detail/static_assert.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/ratio.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/detail/mpl/abs.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/detail/mpl/sign.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/detail/mpl/gcd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/largest_int.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/dependent_nttp.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/detail/mpl/lcm.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/integer_traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/ratio_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/detail/overflow_helpers.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/common_type.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_floating_point.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_unsigned.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/detail/is_evenly_divisible_by.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/time_point.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/detail/system.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/version.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/clock_string.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/interlocked_read.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/cv_status.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/scoped_enum_emulation.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/xtime.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/conversion.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/conversion.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/mutex.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/mutex.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/basic_timed_mutex.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/ceil.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/lock_types.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/move.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/decay.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_bounds.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/delete.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/lock_options.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/lockable_traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/lock_guard.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/lockable_wrapper.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/locks.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/lock_algorithms.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/recursive_mutex.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/recursive_mutex.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/basic_recursive_mutex.hpp \
+ utilstrencodings.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/filesystem/path.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/filesystem/config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/filesystem/path_traits.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/locale \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets_nonio.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/codecvt.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets_nonio.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_conv.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stringfwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/codecvt.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/unique_ptr.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/io/detail/quoted_manip.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/io/ios_state.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/io_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/signal.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/function.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/iterate.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/iteration/iterate.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/slot/slot.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/slot/detail/def.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/detail/prologue.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/function_base.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/integer.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/composite_traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_union.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/function_equal.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/function_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mem_fn.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/mem_fn.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/get_pointer.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/mem_fn_template.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/mem_fn_cc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/enum.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/enum_params.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/iteration/detail/iter/forward1.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/slot/detail/shared.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/detail/function_iterate.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/detail/maybe_include.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/function_template.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/connection.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/null_output_iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/function_output_iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/unique_lock.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/slot.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/bind.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/is_placeholder.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/arg.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/visit_each.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/storage.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/bind_template.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/bind_cc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/bind_mf_cc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/bind_mf2_cc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/placeholders.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/signals_common.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/signal_base.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/signals_common_macros.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/tracked_objects_visitor.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/slot_base.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/weak_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/weak_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/foreign_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/scoped_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/scoped_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/expired_slot.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/apply_visitor.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/apply_visitor_unary.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/generic_result_type.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/apply_visitor_binary.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/apply_visitor_delayed.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/variant.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/config.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/variant_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/blank_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/enum_shifted_params.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/enum_shifted_params.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/limits/list.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/substitute_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/backup_holder.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/enable_recursive_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/forced_return.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/initializer.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/call_traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/call_traits.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/reference_content.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/recursive_wrapper_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/move.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/iter_fold.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/begin_end.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/begin_end_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/begin_end_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/sequence_tag_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/has_begin.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/traits_lambda_spec.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/sequence_tag.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/has_tag.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/is_msvc_eti_arg.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/O1_size.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/O1_size_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/O1_size_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/long.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/long_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/has_size.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/forwarding.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/iter_fold_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/deref.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/msvc_type.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/pair.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/msvc_eti_base.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/make_variant_list.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/list20.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/list10.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/list0.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/push_front.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/push_front_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/item.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/tag.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/pop_front.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/pop_front_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/push_back.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/push_back_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/front.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/front_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/clear.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/clear_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/O1_size.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/size.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/size_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/empty.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/empty_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/begin_end.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/iterator_tags.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/lambda_spec.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/include_preprocessed.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/preprocessed/plain/list10.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/list.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/over_sequence.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/visitation_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/cast_storage.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/hash_variant.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/static_visitor.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/blank.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/templated_streams.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_stateless.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_constructor.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/math/common_factor_ct.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/math_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_nothrow_constructor.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/empty.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/empty_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/find_if.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/find_if_pred.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/iter_apply.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/iter_fold_if.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/iter_fold_if_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/fold.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/fold_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/front.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/front_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/is_sequence.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/iterator_range.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/max_element.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/less.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/comparison_op.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/numeric_op.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/numeric_cast.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/tag.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/numeric_cast_utils.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/less.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/push_front.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/push_front_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/same_as.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/sizeof.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/transform.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/reverse_fold.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/reverse_fold_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/pair_view.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/iterator_category.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/advance.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/advance_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/negate.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/advance_forward.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/advance_backward.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/prior.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/distance.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/distance_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/min_max.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/inserter_algorithm.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/back_inserter.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/push_back.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/push_back_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/inserter.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/front_inserter.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/clear.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/clear_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/variant_io.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/trackable.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/variadic_slot.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/variadic_arg_type.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/slot_template.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/replace_slot_function.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/result_type_wrapper.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/slot_groups.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/optional.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/optional/optional.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/none.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/none_t.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/compare_pointees.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/in_place_factory.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/detail/in_place_factory_prefix.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/punctuation/paren.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/detail/in_place_factory_suffix.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/optional/optional_fwd.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/slot_call_iterator.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/auto_buffer.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/multi_index/detail/scope_guard.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/optional_last_value.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/mutex.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/lwm_win32_cs.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/variadic_signal.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/expr_if.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/variadic_slot_invoker.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/signal_template.hpp \
+ script/sigcache.h script/interpreter.h script/script_error.h \
+ script/standard.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/recursive_variant.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/enable_recursive.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/substitute.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessor/repeat.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/recursive_wrapper.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/equal.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/get.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/visitor_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/bad_visit.hpp \
+ txmempool.h timedata.h util.h utiltime.h utilmoneystr.h wallet/wallet.h \
+ key.h pubkey.h hash.h uint256.h support/allocators/secure.h \
+ support/pagelocker.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/once.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/once.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/invoke.hpp \
+ keystore.h key.h script/script.h script/standard.h sync.h \
+ primitives/block.h tinyformat.h ui_interface.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/last_value.hpp \
+ utilstrencodings.h validationinterface.h wallet/crypter.h \
+ support/allocators/secure.h wallet/wallet_ismine.h script/standard.h \
+ wallet/walletdb.h wallet/db.h clientversion.h config/airdollars-config.h \
+ streams.h sync.h version.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/db_cxx.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/db.h \
+ /usr/share/mingw-w64/include/inttypes.h \
+ /usr/share/mingw-w64/include/unistd.h /usr/share/mingw-w64/include/io.h \
+ /usr/share/mingw-w64/include/getopt.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/thread.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/thread_only.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/thread.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/thread_heap_alloc.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/make_tuple_indices.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/is_convertible.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/thread_interruption.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/v2/thread.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/thread_group.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/shared_mutex.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/shared_mutex.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/tss.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/barrier.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/result_of.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/facilities/intercept.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/detail/result_of_iterate.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/future.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/async_func.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/exception_ptr.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/info.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/to_string_stub.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/to_string.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/is_output_streamable.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/object_hex_dump.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/type_info.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iomanip \
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/quoted_string.h \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/error_info_impl.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/diagnostic_information.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/get_error_info.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/current_exception_cast.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/clone_current_exception.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_fundamental.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/scoped_array.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/scoped_array.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/enable_shared_from_this.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/enable_shared_from_this.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/future_error_code.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/atomic_undef_macros.hpp \
+ /home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/atomic_redef_macros.hpp
+
+miner.h:
+
+primitives/block.h:
+
+primitives/transaction.h:
+
+amount.h:
+
+serialize.h:
+
+compat/endian.h:
+
+config/airdollars-config.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stdint.h:
+
+/usr/share/mingw-w64/include/stdint.h:
+
+/usr/share/mingw-w64/include/crtdefs.h:
+
+/usr/share/mingw-w64/include/_mingw.h:
+
+/usr/share/mingw-w64/include/_mingw_mac.h:
+
+/usr/share/mingw-w64/include/_mingw_secapi.h:
+
+/usr/share/mingw-w64/include/vadefs.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_directx.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stddef.h:
+
+/usr/share/mingw-w64/include/stddef.h:
+
+compat/byteswap.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/algorithm:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/utility:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_relops.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_pair.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/move.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/concept_check.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/type_traits:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/initializer_list:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_algobase.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/functexcept.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception_defines.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cpp_type_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/type_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/numeric_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator_base_types.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator_base_funcs.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/debug/assertions.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_iterator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ptr_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/debug/debug.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/predefined_ops.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_algo.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdlib:
+
+/usr/share/mingw-w64/include/stdlib.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include-fixed/syslimits.h:
+
+/usr/share/mingw-w64/include/limits.h:
+
+/usr/share/mingw-w64/include/sec_api/stdlib_s.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/stdlib.h:
+
+/usr/share/mingw-w64/include/malloc.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_abs.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/algorithmfwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_heap.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_tempbuf.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_construct.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/new:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/exception:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/exception_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cxxabi_init_exception.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/typeinfo:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/hash_bytes.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/nested_exception.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/alloc_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/alloc_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/memoryfwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/uniform_int_dist.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/limits:
+
+/usr/share/mingw-w64/include/assert.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ios:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iosfwd:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stringfwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/postypes.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cwchar:
+
+/usr/share/mingw-w64/include/wchar.h:
+
+/usr/share/mingw-w64/include/_mingw_print_push.h:
+
+/usr/share/mingw-w64/include/_mingw_off_t.h:
+
+/usr/share/mingw-w64/include/_mingw_stat64.h:
+
+/usr/x86_64-w64-mingw32/include/swprintf.inl:
+
+/usr/share/mingw-w64/include/sec_api/wchar_s.h:
+
+/usr/share/mingw-w64/include/_mingw_print_pop.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/char_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdint:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/localefwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/clocale:
+
+/usr/share/mingw-w64/include/locale.h:
+
+/usr/share/mingw-w64/include/stdio.h:
+
+/usr/share/mingw-w64/include/sec_api/stdio_s.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cctype:
+
+/usr/share/mingw-w64/include/ctype.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ios_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/atomicity.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/gthr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
+
+/usr/share/mingw-w64/include/pthread.h:
+
+/usr/share/mingw-w64/include/errno.h:
+
+/usr/share/mingw-w64/include/sys/types.h:
+
+/usr/share/mingw-w64/include/process.h:
+
+/usr/share/mingw-w64/include/signal.h:
+
+/usr/share/mingw-w64/include/pthread_signal.h:
+
+/usr/share/mingw-w64/include/sys/timeb.h:
+
+/usr/share/mingw-w64/include/sec_api/sys/timeb_s.h:
+
+/usr/share/mingw-w64/include/pthread_compat.h:
+
+/usr/share/mingw-w64/include/pthread_unistd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_classes.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/string:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/new_allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ostream_insert.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/cxxabi_forced.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_function.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/backward/binders.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/range_access.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_string.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/string_conversions.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstdio:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cerrno:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/functional_hash.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_string.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_classes.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/system_error:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/stdexcept:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/streambuf:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/streambuf.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_ios.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cwctype:
+
+/usr/share/mingw-w64/include/wctype.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/streambuf_iterator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/basic_ios.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/map:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_tree.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/aligned_buffer.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_map.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/tuple:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/array:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/uses_allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/invoke.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_multimap.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/set:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_set.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_multiset.h:
+
+/usr/share/mingw-w64/include/string.h:
+
+/usr/share/mingw-w64/include/sec_api/string_s.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/vector:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_uninitialized.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_vector.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_bvector.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/vector.tcc:
+
+script/script.h:
+
+crypto/common.h:
+
+../src/config/airdollars-config.h:
+
+compat/endian.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/climits:
+
+serialize.h:
+
+uint256.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstring:
+
+amount.h:
+
+chainparams.h:
+
+chainparamsbase.h:
+
+checkpoints.h:
+
+uint256.h:
+
+consensus/params.h:
+
+protocol.h:
+
+netbase.h:
+
+config/airdollars-config.h:
+
+compat.h:
+
+/usr/share/mingw-w64/include/winsock2.h:
+
+/usr/share/mingw-w64/include/_mingw_unicode.h:
+
+/usr/share/mingw-w64/include/windows.h:
+
+/usr/share/mingw-w64/include/sdkddkver.h:
+
+/usr/share/mingw-w64/include/excpt.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stdarg.h:
+
+/usr/share/mingw-w64/include/stdarg.h:
+
+/usr/share/mingw-w64/include/_mingw_stdarg.h:
+
+/usr/share/mingw-w64/include/windef.h:
+
+/usr/share/mingw-w64/include/minwindef.h:
+
+/usr/share/mingw-w64/include/winapifamily.h:
+
+/usr/share/mingw-w64/include/specstrings.h:
+
+/usr/share/mingw-w64/include/sal.h:
+
+/usr/share/mingw-w64/include/winnt.h:
+
+/usr/share/mingw-w64/include/apiset.h:
+
+/usr/share/mingw-w64/include/psdk_inc/intrin-impl.h:
+
+/usr/share/mingw-w64/include/basetsd.h:
+
+/usr/share/mingw-w64/include/guiddef.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/x86intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/ia32intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/mm_malloc.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/pmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/tmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/ammintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/smmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/popcntintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/wmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/immintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avxintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx2intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512fintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512erintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512pfintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512cdintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512bwintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512dqintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vlbwintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vldqintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512ifmaintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512ifmavlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vbmiintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vbmivlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx5124fmapsintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx5124vnniwintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/avx512vpopcntdqintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/shaintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/lzcntintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/bmiintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/bmi2intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/fmaintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/f16cintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/rtmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xtestintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/mm3dnow.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/prfchwintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/fma4intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xopintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/lwpintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/tbmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/rdseedintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/fxsrintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xsaveintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xsaveoptintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/sgxintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/adxintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/clwbintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/clflushoptintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xsavesintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/xsavecintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/mwaitxintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/clzerointrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/pkuintrin.h:
+
+/usr/share/mingw-w64/include/pshpack4.h:
+
+/usr/share/mingw-w64/include/poppack.h:
+
+/usr/share/mingw-w64/include/pshpack4.h:
+
+/usr/share/mingw-w64/include/pshpack2.h:
+
+/usr/share/mingw-w64/include/poppack.h:
+
+/usr/share/mingw-w64/include/pshpack2.h:
+
+/usr/share/mingw-w64/include/pshpack8.h:
+
+/usr/share/mingw-w64/include/pshpack8.h:
+
+/usr/share/mingw-w64/include/ktmtypes.h:
+
+/usr/share/mingw-w64/include/winbase.h:
+
+/usr/share/mingw-w64/include/apisetcconv.h:
+
+/usr/share/mingw-w64/include/minwinbase.h:
+
+/usr/share/mingw-w64/include/bemapiset.h:
+
+/usr/share/mingw-w64/include/debugapi.h:
+
+/usr/share/mingw-w64/include/errhandlingapi.h:
+
+/usr/share/mingw-w64/include/fibersapi.h:
+
+/usr/share/mingw-w64/include/fileapi.h:
+
+/usr/share/mingw-w64/include/handleapi.h:
+
+/usr/share/mingw-w64/include/heapapi.h:
+
+/usr/share/mingw-w64/include/ioapiset.h:
+
+/usr/share/mingw-w64/include/interlockedapi.h:
+
+/usr/share/mingw-w64/include/jobapi.h:
+
+/usr/share/mingw-w64/include/libloaderapi.h:
+
+/usr/share/mingw-w64/include/memoryapi.h:
+
+/usr/share/mingw-w64/include/namedpipeapi.h:
+
+/usr/share/mingw-w64/include/namespaceapi.h:
+
+/usr/share/mingw-w64/include/processenv.h:
+
+/usr/share/mingw-w64/include/processthreadsapi.h:
+
+/usr/share/mingw-w64/include/processtopologyapi.h:
+
+/usr/share/mingw-w64/include/profileapi.h:
+
+/usr/share/mingw-w64/include/realtimeapiset.h:
+
+/usr/share/mingw-w64/include/securityappcontainer.h:
+
+/usr/share/mingw-w64/include/securitybaseapi.h:
+
+/usr/share/mingw-w64/include/synchapi.h:
+
+/usr/share/mingw-w64/include/sysinfoapi.h:
+
+/usr/share/mingw-w64/include/systemtopologyapi.h:
+
+/usr/share/mingw-w64/include/threadpoolapiset.h:
+
+/usr/share/mingw-w64/include/threadpoollegacyapiset.h:
+
+/usr/share/mingw-w64/include/utilapiset.h:
+
+/usr/share/mingw-w64/include/wow64apiset.h:
+
+/usr/share/mingw-w64/include/winerror.h:
+
+/usr/share/mingw-w64/include/fltwinerror.h:
+
+/usr/share/mingw-w64/include/timezoneapi.h:
+
+/usr/share/mingw-w64/include/wingdi.h:
+
+/usr/share/mingw-w64/include/pshpack1.h:
+
+/usr/share/mingw-w64/include/winuser.h:
+
+/usr/share/mingw-w64/include/tvout.h:
+
+/usr/share/mingw-w64/include/winnls.h:
+
+/usr/share/mingw-w64/include/datetimeapi.h:
+
+/usr/share/mingw-w64/include/stringapiset.h:
+
+/usr/share/mingw-w64/include/wincon.h:
+
+/usr/share/mingw-w64/include/winver.h:
+
+/usr/share/mingw-w64/include/winreg.h:
+
+/usr/share/mingw-w64/include/reason.h:
+
+/usr/share/mingw-w64/include/winnetwk.h:
+
+/usr/share/mingw-w64/include/wnnc.h:
+
+/usr/share/mingw-w64/include/virtdisk.h:
+
+/usr/share/mingw-w64/include/stralign.h:
+
+/usr/share/mingw-w64/include/sec_api/stralign_s.h:
+
+/usr/share/mingw-w64/include/winsvc.h:
+
+/usr/share/mingw-w64/include/mcx.h:
+
+/usr/share/mingw-w64/include/imm.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_ws1_undef.h:
+
+/usr/share/mingw-w64/include/_timeval.h:
+
+/usr/share/mingw-w64/include/_bsd_types.h:
+
+/usr/share/mingw-w64/include/inaddr.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_socket_types.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_fd_types.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_ip_types.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_wsadata.h:
+
+/usr/share/mingw-w64/include/ws2def.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_wsa_errnos.h:
+
+/usr/share/mingw-w64/include/qos.h:
+
+/usr/share/mingw-w64/include/mswsock.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_xmitfile.h:
+
+/usr/share/mingw-w64/include/ws2tcpip.h:
+
+/usr/share/mingw-w64/include/ws2ipdef.h:
+
+/usr/share/mingw-w64/include/in6addr.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_ip_mreq1.h:
+
+/usr/share/mingw-w64/include/mstcpip.h:
+
+serialize.h:
+
+version.h:
+
+consensus/consensus.h:
+
+consensus/validation.h:
+
+hash.h:
+
+crypto/ripemd160.h:
+
+crypto/sha256.h:
+
+main.h:
+
+chain.h:
+
+arith_uint256.h:
+
+pow.h:
+
+tinyformat.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cassert:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iostream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ostream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/ostream.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/istream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/istream.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/sstream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/sstream.tcc:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/foreach.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstddef:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/user.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/select_compiler_config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/compiler/gcc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/select_stdlib_config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/no_tr1/utility.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/stdlib/libstdcpp3.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/select_platform_config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/platform/win32.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/suffix.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/workaround.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/if.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/value_wknd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/static_cast.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/workaround.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/integral.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/msvc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/eti.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/na_spec.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/lambda_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/void_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/adl_barrier.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/adl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/intel.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/gcc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/na.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/bool.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/bool_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/integral_c_tag.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/static_constant.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/na_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/ctps.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/lambda.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/ttp.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/int.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/int_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/nttp_decl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/nttp.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/integral_wrapper.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/cat.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/config/config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/arity.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/dtp.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessor/params.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/preprocessor.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/comma_if.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/punctuation/comma_if.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/if.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/iif.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/logical/bool.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/facilities/empty.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/punctuation/comma.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repeat.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/repeat.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/debug/error.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/detail/auto_rec.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/tuple/eat.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/inc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/arithmetic/inc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessor/enum.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/limits/arity.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/logical/and.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/logical/bitand.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/identity.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/facilities/identity.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/empty.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/arithmetic/add.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/arithmetic/dec.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/while.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/fold_left.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/detail/fold_left.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/expr_iif.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/adt.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/detail/is_binary.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/detail/check.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/logical/compl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/fold_right.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/detail/fold_right.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/reverse.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/detail/while.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/tuple/elem.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/facilities/overload.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/variadic/size.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/tuple/rem.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/variadic/elem.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/arithmetic/sub.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/lambda_support.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/assert.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/not.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/nested_type_wknd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/yes_no.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/arrays.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/pp_counter.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/logical.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/or.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/use_preprocessed.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/include_preprocessed.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/compiler.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/stringize.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/and.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/eval_if.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/noncopyable.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/end.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/detail/implementation_help.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/detail/common.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/detail/sfinae.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_array.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/bool_trait_def.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/template_arity_spec.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/integral_constant.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/integral_c.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/integral_c_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/bool_trait_undef.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/yes_no_type.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_void.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/ice_or.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_same.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/mutable_iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/detail/extract_optional_type.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/iterator_traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/iterator.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iterator:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stream_iterator.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/const_iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_const.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_volatile.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/cv_traits_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/broken_compiler_spec.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/type_trait_def.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/type_trait_undef.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_const.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_reference.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_lvalue_reference.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_rvalue_reference.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/ice.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/ice_and.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/ice_not.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/ice_eq.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/begin.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/rend.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/reverse_iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/reverse_iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/next_prior.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/iterator_adaptor.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/static_assert.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/iterator_categories.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/detail/config_def.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/identity.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/placeholders.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/arg.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/arg_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/na_assert.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/arity_spec.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/arg_typedef.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_convertible.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/intrinsics.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_arithmetic.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_integral.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_float.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_abstract.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_lvalue_reference.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_reference.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_rvalue_reference.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_function.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/false_result.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/is_function_ptr_helper.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/detail/config_undef.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/iterator_facade.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/interoperable.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/detail/facade_iterator_category.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/indirect_traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_pointer.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_member_pointer.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_member_function_pointer.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_cv.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_class.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_reference.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_pointer.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/iterator/detail/enable_if.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/addressof.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_const.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_pointer.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_pod.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_scalar.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_enum.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/always.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/apply.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/apply_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/apply_wrap.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/has_apply.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/has_xxx.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/type_wrapper.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/has_xxx.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/msvc_typename.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/array/elem.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/array/data.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/array/size.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/enum_params.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/has_apply.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/msvc_never_true.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/lambda.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/bind.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/bind_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/bind.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/next.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/next_prior.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/common_name_wknd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/protect.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/full_lambda.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/quote.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/void.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/has_type.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/bcc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/template_arity.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/range/rbegin.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_base_and_derived.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/foreach_fwd.hpp:
+
+coins.h:
+
+compressor.h:
+
+primitives/transaction.h:
+
+script/script.h:
+
+memusage.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered_set.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/unordered_set.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/unordered_set_fwd.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/memory:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_raw_storage_iter.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ext/concurrence.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/unique_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocated_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/refwrap.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/shared_ptr_atomic.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_lockfree_defines.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/backward/auto_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/functional:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_function.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/hash_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/equivalent.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/table.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/buckets.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/util.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_empty.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/enable_if.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/select_type.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/move.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/detail/config_begin.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/utility.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/core.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/detail/config_end.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/detail/meta_utils.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_destructor.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_nothrow_move_constructible.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_move_constructor.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_nothrow_copy.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_copy.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/declval.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_nothrow_move_assignable.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_move_assign.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_nothrow_assign.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_assign.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/move/algorithm.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/no_exceptions_support.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/seq/size.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/seq/enum.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/swap.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/swap.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/allocate.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/dec.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/enum.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/enum_binary_params.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/repeat_from_to.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/tuple/tuple.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/ref.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/tuple/detail/tuple_basic.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/cv_traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_volatile.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/add_cv.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_volatile.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/function_traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/assert.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/current_function.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/limits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/pointer_to_other.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/aligned_storage.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/aligned_storage.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/alignment_of.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/size_t_trait_def.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/size_t.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/size_t_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/detail/size_t_trait_undef.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/type_with_alignment.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/for_each_i.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/for.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/detail/for.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/tuple/to_list.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/transform.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/list/append.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cmath:
+
+/usr/share/mingw-w64/include/math.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/extract_key.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/detail/unique.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/throw_exception.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/attribute_noreturn.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/exception.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/hash.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/detail/hash_float.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/detail/float_functions.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/no_tr1/cmath.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/detail/limits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/integer/static_log2.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/integer_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/cstdint.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/typeindex:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/functional/hash/extensions.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/container_fwd.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/deque:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_deque.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/deque.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/list:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_list.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/list.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bitset:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/complex:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered_map.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/unordered_map.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/unordered/unordered_map_fwd.hpp:
+
+net.h:
+
+bloom.h:
+
+limitedmap.h:
+
+mruset.h:
+
+random.h:
+
+streams.h:
+
+support/allocators/zeroafterfree.h:
+
+support/cleanse.h:
+
+sync.h:
+
+threadsafety.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/condition_variable.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/platform.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/requires_threads.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/condition_variable.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/thread_primitives.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/auto_link.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/exceptions.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/system/system_error.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/system/error_code.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/system/config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/system/api_config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/operators.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/cerrno.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/abi_prefix.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/abi_suffix.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/interlocked.hpp:
+
+/usr/share/mingw-w64/include/intrin.h:
+
+/usr/share/mingw-w64/include/setjmp.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/thread_data.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/thread_time.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_clock.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/c_time.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ctime:
+
+/usr/share/mingw-w64/include/time.h:
+
+/usr/share/mingw-w64/include/pthread_time.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/compiler_config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/locale_config.hpp:
+
+/usr/share/mingw-w64/include/sys/time.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/shared_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/shared_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/no_tr1/memory.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/checked_delete.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/shared_count.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/bad_weak_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_has_sync.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/sp_typeinfo.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/spinlock_pool.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/spinlock.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/spinlock_sync.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/yield_k.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/memory_order.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/detail/operator_bool.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/microsec_time_clock.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/filetime_functions.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_defs.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/special_defs.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_defs.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/posix_time_types.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/ptime.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/posix_time_system.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/posix_time_config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_duration.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_resolution_traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/int_adapter.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/gregorian_types.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/year_month_day.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/period.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_calendar.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_weekday.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/constrained_value.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_base_of.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_day_of_year.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian_calendar.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian_calendar.ipp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_ymd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_day.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_year.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_month.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_duration.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_duration.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_duration_types.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_duration_types.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/greg_date.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/adjust_functors.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/wrapping_int.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_generators.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_clock_device.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/date_iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_system_split.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_system_counted.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/date_duration_operators.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/posix_time_duration.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/time_period.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/time_iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/dst_rules.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/thread_heap_alloc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/intrusive_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/intrusive_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/config/no_tr1/functional.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/system_clocks.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/duration.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/detail/static_assert.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/ratio.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/detail/mpl/abs.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/detail/mpl/sign.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/detail/mpl/gcd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/largest_int.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/dependent_nttp.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/detail/mpl/lcm.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/integer_traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/ratio_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/ratio/detail/overflow_helpers.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/common_type.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_floating_point.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_unsigned.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/detail/is_evenly_divisible_by.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/time_point.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/detail/system.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/version.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/clock_string.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/interlocked_read.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/cv_status.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/scoped_enum_emulation.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/xtime.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/posix_time/conversion.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/date_time/gregorian/conversion.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/mutex.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/mutex.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/basic_timed_mutex.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/chrono/ceil.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/lock_types.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/move.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/decay.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/remove_bounds.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/delete.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/lock_options.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/lockable_traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/lock_guard.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/lockable_wrapper.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/locks.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/lock_algorithms.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/recursive_mutex.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/recursive_mutex.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/basic_recursive_mutex.hpp:
+
+utilstrencodings.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/filesystem/path.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/filesystem/config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/filesystem/path_traits.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/locale:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets_nonio.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/time_members.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/codecvt.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_facets_nonio.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/locale_conv.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stringfwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/codecvt.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/unique_ptr.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/io/detail/quoted_manip.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/io/ios_state.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/io_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/signal.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/function.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/iterate.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/iteration/iterate.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/slot/slot.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/slot/detail/def.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/detail/prologue.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/function_base.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/integer.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/composite_traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_union.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/function_equal.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/function_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mem_fn.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/mem_fn.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/get_pointer.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/mem_fn_template.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/mem_fn_cc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/enum.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/enum_params.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/slot/detail/shared.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/detail/function_iterate.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/detail/maybe_include.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/function/function_template.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/connection.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/null_output_iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/function_output_iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/unique_lock.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/slot.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/bind.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/is_placeholder.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/arg.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/visit_each.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/storage.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/bind_template.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/bind_cc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/bind_mf_cc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/bind_mf2_cc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/bind/placeholders.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/signals_common.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/signal_base.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/signals_common_macros.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/tracked_objects_visitor.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/slot_base.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/weak_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/weak_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/foreign_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/scoped_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/scoped_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/expired_slot.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/apply_visitor.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/apply_visitor_unary.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/generic_result_type.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/apply_visitor_binary.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/apply_visitor_delayed.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/variant.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/config.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/variant_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/blank_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/enum_shifted_params.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/repetition/enum_shifted_params.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/limits/list.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/substitute_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/backup_holder.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/enable_recursive_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/forced_return.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/initializer.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/call_traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/call_traits.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/reference_content.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/recursive_wrapper_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/move.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/iter_fold.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/begin_end.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/begin_end_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/begin_end_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/sequence_tag_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/has_begin.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/traits_lambda_spec.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/sequence_tag.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/has_tag.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/O1_size.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/O1_size_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/O1_size_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/long.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/long_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/has_size.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/config/forwarding.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/iter_fold_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/deref.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/msvc_type.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/pair.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/msvc_eti_base.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/make_variant_list.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/list20.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/list10.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/list0.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/push_front.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/push_front_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/item.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/tag.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/pop_front.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/pop_front_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/push_back.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/push_back_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/front.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/front_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/clear.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/clear_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/O1_size.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/size.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/size_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/empty.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/empty_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/begin_end.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/iterator_tags.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/lambda_spec.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/include_preprocessed.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/preprocessed/plain/list10.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/list.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/over_sequence.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/visitation_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/cast_storage.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/hash_variant.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/static_visitor.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/blank.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/templated_streams.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_stateless.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_trivial_constructor.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/math/common_factor_ct.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/math_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/has_nothrow_constructor.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/empty.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/empty_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/find_if.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/find_if_pred.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/iter_apply.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/iter_fold_if.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/iter_fold_if_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/fold.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/fold_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/front.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/front_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/is_sequence.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/iterator_range.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/max_element.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/less.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/comparison_op.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/numeric_op.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/numeric_cast.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/tag.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/numeric_cast_utils.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/push_front.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/push_front_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/same_as.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/sizeof.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/transform.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/reverse_fold.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/reverse_fold_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/pair_view.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/iterator_category.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/advance.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/advance_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/negate.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/advance_forward.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/advance_backward.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/prior.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/distance.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/distance_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/min_max.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/inserter_algorithm.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/back_inserter.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/push_back.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/push_back_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/inserter.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/front_inserter.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/clear.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/clear_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessor/default_params.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/variant_io.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/trackable.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/variadic_slot.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/variadic_arg_type.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/slot_template.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/replace_slot_function.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/result_type_wrapper.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/slot_groups.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/optional.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/optional/optional.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/none.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/none_t.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/compare_pointees.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/in_place_factory.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/detail/in_place_factory_prefix.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/punctuation/paren.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/detail/in_place_factory_suffix.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/optional/optional_fwd.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/slot_call_iterator.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/auto_buffer.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/multi_index/detail/scope_guard.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/optional_last_value.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/mutex.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/lwm_win32_cs.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/variadic_signal.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/control/expr_if.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/variadic_slot_invoker.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/detail/signal_template.hpp:
+
+script/sigcache.h:
+
+script/interpreter.h:
+
+script/script_error.h:
+
+script/standard.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/recursive_variant.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/enable_recursive.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/detail/substitute.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/aux_/preprocessor/repeat.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/recursive_wrapper.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/mpl/equal.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/get.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/visitor_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/variant/bad_visit.hpp:
+
+txmempool.h:
+
+timedata.h:
+
+util.h:
+
+utiltime.h:
+
+utilmoneystr.h:
+
+wallet/wallet.h:
+
+key.h:
+
+pubkey.h:
+
+hash.h:
+
+uint256.h:
+
+support/allocators/secure.h:
+
+support/pagelocker.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/once.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/once.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/invoke.hpp:
+
+keystore.h:
+
+key.h:
+
+script/script.h:
+
+script/standard.h:
+
+sync.h:
+
+primitives/block.h:
+
+tinyformat.h:
+
+ui_interface.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/signals2/last_value.hpp:
+
+utilstrencodings.h:
+
+validationinterface.h:
+
+wallet/crypter.h:
+
+support/allocators/secure.h:
+
+wallet/wallet_ismine.h:
+
+script/standard.h:
+
+wallet/walletdb.h:
+
+wallet/db.h:
+
+clientversion.h:
+
+config/airdollars-config.h:
+
+streams.h:
+
+sync.h:
+
+version.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/db_cxx.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/db.h:
+
+/usr/share/mingw-w64/include/inttypes.h:
+
+/usr/share/mingw-w64/include/unistd.h:
+
+/usr/share/mingw-w64/include/io.h:
+
+/usr/share/mingw-w64/include/getopt.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/thread.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/thread_only.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/thread.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/thread_heap_alloc.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/make_tuple_indices.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/is_convertible.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/thread_interruption.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/v2/thread.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/thread_group.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/shared_mutex.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/win32/shared_mutex.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/tss.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/barrier.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/result_of.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/preprocessor/facilities/intercept.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/utility/detail/result_of_iterate.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/future.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/detail/async_func.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/exception_ptr.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/info.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/to_string_stub.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/to_string.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/is_output_streamable.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/object_hex_dump.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/type_info.hpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iomanip:
+
+/usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/quoted_string.h:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/error_info_impl.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/diagnostic_information.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/get_error_info.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/current_exception_cast.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/exception/detail/clone_current_exception.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/type_traits/is_fundamental.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/scoped_array.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/scoped_array.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/enable_shared_from_this.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/smart_ptr/enable_shared_from_this.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/thread/future_error_code.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/atomic_undef_macros.hpp:
+
+/home/airdollars/depends/x86_64-w64-mingw32/include/boost/detail/atomic_redef_macros.hpp:

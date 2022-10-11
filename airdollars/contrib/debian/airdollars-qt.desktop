@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AirDollars
+Comment=AirDollars P2P Cryptocurrency
+Comment[fr]=AirDollars, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=AirDollars, eşten eşe kriptografik sanal para birimi
+Exec=airdollars-qt %u
+Terminal=false
+Type=Application
+Icon=airdollars128
+MimeType=x-scheme-handler/airdollars;
+Categories=Office;Finance;

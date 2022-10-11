@@ -1,0 +1,27 @@
+# /etc/conf.d/airdollarsd: config file for /etc/init.d/airdollarsd
+
+# Config file location
+#AIRDOLLARSD_CONFIGFILE="/etc/airdollars/airdollars.conf"
+
+# What directory to write pidfile to?  (created and owned by $AIRDOLLARSD_USER)
+#AIRDOLLARSD_PIDDIR="/var/run/airdollarsd"
+
+# What filename to give the pidfile
+#AIRDOLLARSD_PIDFILE="${AIRDOLLARSD_PIDDIR}/airdollarsd.pid"
+
+# Where to write airdollarsd data (be mindful that the blockchain is large)
+#AIRDOLLARSD_DATADIR="/var/lib/airdollarsd"
+
+# User and group to own airdollarsd process
+#AIRDOLLARSD_USER="airdollars"
+#AIRDOLLARSD_GROUP="airdollars"
+
+# Path to airdollarsd executable
+#AIRDOLLARSD_BIN="/usr/bin/airdollarsd"
+
+# Nice value to run airdollarsd under
+#AIRDOLLARSD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+AIRDOLLARSD_OPTS="-disablewallet"
+

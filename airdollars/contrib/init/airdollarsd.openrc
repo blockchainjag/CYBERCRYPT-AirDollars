@@ -1,0 +1,88 @@
+#!/sbin/runscript
+
+# backward compatibility for existing gentoo layout 
+#
+if [ -d "/var/lib/airdollars/.airdollars" ]; then
+	AIRDOLLARSD_DEFAULT_DATADIR="/var/lib/airdollars/.airdollars"
+else
+	AIRDOLLARSD_DEFAULT_DATADIR="/var/lib/airdollarsd"
+fi
+
+AIRDOLLARSD_CONFIGFILE=${AIRDOLLARSD_CONFIGFILE:-/etc/airdollars/airdollars.conf}
+AIRDOLLARSD_PIDDIR=${AIRDOLLARSD_PIDDIR:-/var/run/airdollarsd}
+AIRDOLLARSD_PIDFILE=${AIRDOLLARSD_PIDFILE:-${AIRDOLLARSD_PIDDIR}/airdollarsd.pid}
+AIRDOLLARSD_DATADIR=${AIRDOLLARSD_DATADIR:-${AIRDOLLARSD_DEFAULT_DATADIR}}
+AIRDOLLARSD_USER=${AIRDOLLARSD_USER:-${AIRDOLLARS_USER:-airdollars}}
+AIRDOLLARSD_GROUP=${AIRDOLLARSD_GROUP:-airdollars}
+AIRDOLLARSD_BIN=${AIRDOLLARSD_BIN:-/usr/bin/airdollarsd}
+AIRDOLLARSD_NICE=${AIRDOLLARSD_NICE:-${NICELEVEL:-0}}
+AIRDOLLARSD_OPTS="${AIRDOLLARSD_OPTS:-${AIRDOLLARS_OPTS}}"
+
+name="AirDollars Core Daemon"
+description="AirDollars cryptocurrency P2P network daemon"
+
+command="/usr/bin/airdollarsd"
+command_args="-pid=\"${AIRDOLLARSD_PIDFILE}\" \
+		-conf=\"${AIRDOLLARSD_CONFIGFILE}\" \
+		-datadir=\"${AIRDOLLARSD_DATADIR}\" \
+		-daemon \
+		${AIRDOLLARSD_OPTS}"
+
+required_files="${AIRDOLLARSD_CONFIGFILE}"
+start_stop_daemon_args="-u ${AIRDOLLARSD_USER} \
+			-N ${AIRDOLLARSD_NICE} -w 2000"
+pidfile="${AIRDOLLARSD_PIDFILE}"
+retry=60
+
+depend() {
+	need localmount net
+}
+
+# verify
+# 1) that the datadir exists and is writable (or create it)
+# 2) that a directory for the pid exists and is writable
+# 3) ownership and permissions on the config file
+start_pre() {
+	checkpath \
+	-d \
+	--mode 0750 \
+	--owner "${AIRDOLLARSD_USER}:${AIRDOLLARSD_GROUP}" \
+	"${AIRDOLLARSD_DATADIR}"
+
+	checkpath \
+	-d \
+	--mode 0755 \
+	--owner "${AIRDOLLARSD_USER}:${AIRDOLLARSD_GROUP}" \
+	"${AIRDOLLARSD_PIDDIR}"
+
+	checkpath -f \
+	-o ${AIRDOLLARSD_USER}:${AIRDOLLARSD_GROUP} \
+	-m 0660 \
+	${AIRDOLLARSD_CONFIGFILE}
+
+	checkconfig || return 1
+}
+
+checkconfig()
+{
+	if ! grep -qs '^rpcpassword=' "${AIRDOLLARSD_CONFIGFILE}" ; then
+		eerror ""
+		eerror "ERROR: You must set a secure rpcpassword to run airdollarsd."
+		eerror "The setting must appear in ${AIRDOLLARSD_CONFIGFILE}"
+		eerror ""
+		eerror "This password is security critical to securing wallets "
+		eerror "and must not be the same as the rpcuser setting."
+		eerror "You can generate a suitable random password using the following"
+		eerror "command from the shell:"
+		eerror ""
+		eerror "bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'"
+		eerror ""
+		eerror "It is also recommended that you also set alertnotify so you are "
+		eerror "notified of problems:"
+		eerror ""
+		eerror "ie: alertnotify=echo %%s | mail -s \"AirDollars Alert\"" \
+			"admin@foo.com"
+		eerror ""
+		return 1
+	fi
+}

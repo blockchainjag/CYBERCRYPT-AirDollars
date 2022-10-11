@@ -1,0 +1,2 @@
+qt/qt_libairdollarsqt_a-qrc_airdollars_locale.o: \
+ qt/qrc_airdollars_locale.cpp
